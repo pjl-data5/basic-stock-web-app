@@ -1,14 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 21 21:48:50 2022
-
-@author: paull
-"""
 
 
-
-
-
+# relevant packages
 import yfinance as yf
 import streamlit as st
 import pandas as pd
@@ -130,6 +122,7 @@ if len(add_selectbox_ass)>0:
 assets = tickers
 #Assign weights to the stocks.
  
+# for future portofolia management applications
 weights = np.array([0.25,0.25,0.25,0.25])
 
 # Randomly fill a dataframe and cache it
