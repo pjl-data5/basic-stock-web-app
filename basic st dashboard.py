@@ -35,11 +35,11 @@ st.header("Financial dashboard")
 
 #  sidebar: ================
 # Add a selectbox to the sidebar:
-
-add_selectbox = st.sidebar.selectbox(
-    'What algorithm should we use?',
-    ('Knn', 'CNN', 'DT')
-)
+# for future use
+#add_selectbox = st.sidebar.selectbox(
+#    'What algorithm should we use?',
+#    ('Knn', 'CNN', 'DT')
+#)
 
 # END sidebar: ================
 
